@@ -3,7 +3,7 @@ import pandas as pd
 
 from .base_classes import FrameProcessor
 from .pyplot_funcs import create_pyplot_canvas_for_frame, pyplot_annotated_frames_generator
-from .utilities.tracking import plot_keypoint_instance, plot_keypoint_instances
+from .matplotlib_tracking import plot_keypoint_instance, plot_keypoint_instances
 
 
 class PyplotAnnotatedFramesGenerator(FrameProcessor):
